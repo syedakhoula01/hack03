@@ -31,5 +31,12 @@ else if(avg_use< GB_in_plan/30);
 {
     status = "under use";
 }
+else
+{
+    status= "on use";
+
+}
+
+
 
 }
