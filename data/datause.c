@@ -13,5 +13,13 @@ int main()
 
     printf("enter the total numbers ogf GB used ");
     scanf("%f", &GB_used);
-    
+
+    float avg_use= GB_used / day;
+
+
+int remaining_days = 30-day;
+float remaining_data = GB_in_plan - GB_used;
+float avg_daily_allowing = remaining_data / remaining_days;
+ 
+
 }
