@@ -31,12 +31,23 @@ else if(avg_use< GB_in_plan/30);
 {
     status = "under use";
 }
+
 else
 {
     status= "on use";
 
 }
 
+printf("average daily usage : %.2f GB \n", avg_use);
+printf("remaining data allowance : %2f GB \n" , remaining_data);
+printf("average daily allowing for the rest of the time period: %.2f GB \n" , avg_daily_allowing);
+printf("you are %s your data plan uasge \n", status);
+
+if (remaining_data<=0)
+{
+    printf("you have run out of data this month.\n");
+}
+return 0;
 
 
 }
