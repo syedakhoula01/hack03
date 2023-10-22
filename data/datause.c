@@ -27,11 +27,10 @@ if(avg_use > GB_in_plan/30)
 {
     status = "over use";
 }
-else if(avg_use< GB_in_plan/30);
+else if(avg_use< GB_in_plan/30)
 {
     status = "under use";
 }
-
 else
 {
     status= "on use";
